@@ -33,9 +33,9 @@ header {
         
     }
 main section{
-    min-height: calc(86vh - 20px);
+    min-height: calc(100vh - 40px);
     display: grid;
-    max-width: 1400x;
+    max-width: 1400px;
        grid-template-columns: repeat(2, 1fr);
    align-items: center;
    justify-content: center;
@@ -76,7 +76,7 @@ main section div {
 }
 
 .card-footer {
-    height: 76px;
+    height: 70px;
     width: 100%;
     background-color: white;
     margin-top: auto;
@@ -122,7 +122,6 @@ article h2 {
   white-space: pre-line;
   margin-bottom: 10px;
   color: #000000;
-    font-family: ' ', sans-serif;
 }
 
 article h3 {
@@ -224,6 +223,65 @@ footer {
     .card-footer {
         flex-direction: row;
         gap: 10px;
+        margin-bottom: 0px;
     }
-
 }
+.xtra-cards {
+    min-height: calc(100vh - 40px);
+    display: grid;
+    max-width: 1400px;
+       grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   padding: 20px;
+}
+.card1 {
+    width: 312px;
+    height: 442px;
+    background: #ccaf2e;
+    border-radius: 40px;
+    box-shadow: rgba(25, 0, 255, 0.4) 5px 5px, rgba(4, 0, 255, 0.3) 10px 10px, rgba(98, 0, 255, 0.2) 15px 15px, rgba(17, 0, 255, 0.1) 20px 20px, rgba(25, 0, 255, 0.05) 25px 25px;
+    transition: box-shadow 1s ease-in-out;
+    box-shadow: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.card1:hover{
+    box-shadow: rgba(76, 0, 255, 0.4) 15px 15px, rgba(76, 0, 255, 0.3) 20px 20px, rgba(76, 0, 255, 0.2) 25px 25px, rgba(98, 0, 255, 0.1) 30px 30px, rgba(183, 0, 255, 0.05) 35px 35px;
+}
+.card2 {
+    width: 312px;
+    height: 442px;
+    background: #cc2e8a;
+    border-radius: 40px;
+    box-shadow: rgba(34, 34, 33, 0.4) 5px 5px, rgba(80, 79, 78, 0.3) 10px 10px, rgba(35, 36, 34, 0.2) 15px 15px, rgba(62, 62, 68, 0.1) 20px 20px, rgba(54, 53, 58, 0.05) 25px 25px;
+    transition: box-shadow 1s ease-in-out;
+    box-shadow: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.card2:hover{
+    box-shadow: rgba(83, 81, 87, 0.4) 15px 15px, rgba(55, 53, 58, 0.3) 20px 20px, rgba(95, 92, 102, 0.2) 25px 25px, rgba(103, 101, 107, 0.1) 30px 30px, rgba(69, 64, 71, 0.05) 35px 35px;
+}
+.card3 {
+    width: 312px;
+    height: 442px;
+    background: #c01616;
+    border-radius: 40px;
+    box-shadow: rgba(173, 95, 5, 0.4) 5px 5px, rgba(255, 196, 0, 0.486) 10px 10px, rgba(143, 97, 11, 0.2) 15px 15px, rgba(145, 90, 8, 0.1) 20px 20px, rgba(134, 83, 5, 0.05) 25px 25px;
+    transition: box-shadow 1s ease-in-out;
+    box-shadow: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.card3:hover{
+    box-shadow: rgba(175, 106, 2, 0.4) 15px 15px, rgba(185, 108, 7, 0.3) 20px 20px, rgba(116, 76, 2, 0.2) 25px 25px, rgba(173, 101, 7, 0.1) 30px 30px, rgba(119, 73, 3, 0.05) 35px 35px;
+}
+
+
+
+
