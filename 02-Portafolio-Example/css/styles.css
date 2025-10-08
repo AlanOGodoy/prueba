@@ -237,8 +237,8 @@ footer {
    padding: 20px;
 }
 .card1 {
-    width: 312px;
-    height: 442px;
+    width: 412px;
+    height: 200px;
     background: #ccaf2e;
     border-radius: 40px;
     box-shadow: rgba(25, 0, 255, 0.4) 5px 5px, rgba(4, 0, 255, 0.3) 10px 10px, rgba(98, 0, 255, 0.2) 15px 15px, rgba(17, 0, 255, 0.1) 20px 20px, rgba(25, 0, 255, 0.05) 25px 25px;
@@ -252,8 +252,8 @@ footer {
     box-shadow: rgba(76, 0, 255, 0.4) 15px 15px, rgba(76, 0, 255, 0.3) 20px 20px, rgba(76, 0, 255, 0.2) 25px 25px, rgba(98, 0, 255, 0.1) 30px 30px, rgba(183, 0, 255, 0.05) 35px 35px;
 }
 .card2 {
-    width: 312px;
-    height: 442px;
+    width: 412px;
+    height: 200px;
     background: #cc2e8a;
     border-radius: 40px;
     box-shadow: rgba(34, 34, 33, 0.4) 5px 5px, rgba(80, 79, 78, 0.3) 10px 10px, rgba(35, 36, 34, 0.2) 15px 15px, rgba(62, 62, 68, 0.1) 20px 20px, rgba(54, 53, 58, 0.05) 25px 25px;
@@ -267,8 +267,8 @@ footer {
     box-shadow: rgba(83, 81, 87, 0.4) 15px 15px, rgba(55, 53, 58, 0.3) 20px 20px, rgba(95, 92, 102, 0.2) 25px 25px, rgba(103, 101, 107, 0.1) 30px 30px, rgba(69, 64, 71, 0.05) 35px 35px;
 }
 .card3 {
-    width: 312px;
-    height: 442px;
+    width: 412px;
+    height: 200px;
     background: #c01616;
     border-radius: 40px;
     box-shadow: rgba(173, 95, 5, 0.4) 5px 5px, rgba(255, 196, 0, 0.486) 10px 10px, rgba(143, 97, 11, 0.2) 15px 15px, rgba(145, 90, 8, 0.1) 20px 20px, rgba(134, 83, 5, 0.05) 25px 25px;
