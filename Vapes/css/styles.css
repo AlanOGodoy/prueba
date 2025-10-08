@@ -1,0 +1,192 @@
+:root {
+  --primary-color: #f1f1f1;
+  --secondary-color: #af0a0a;
+  --bg: #ffffff;
+  --text: #613109;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+}
+
+
+header {
+  background-color: var(--primary-color);
+  color: #613109(218, 124, 17);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+
+}
+
+.container.nav {
+  display: flex;
+        flex-direction: row;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 0 20px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.btn {
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #cc2c2c;
+}
+.info-text p {
+  margin-bottom: 40px;
+}
+
+.container-info {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(189, 188, 188);
+}
+
+.info-text {
+  max-width: 600px;
+  text-align: left;
+  padding: 0px 70px;
+}
+
+.info-img img {
+  max-width: 100%;
+  height: auto;
+}
+.container-product{
+  text-align: center;
+  padding-top: 150px;
+    max-width: 600px;  
+  margin: 0 auto;    
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.product-cards {
+  min-height: calc(100vh - 40px);
+  display: grid;
+  max-width: 1400px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card1 {
+    width: 412px;
+    height: 342px;
+    background: #ccaf2e;
+    border-radius: 40px;
+    box-shadow: rgba(25, 0, 255, 0.4) 5px 5px, rgba(4, 0, 255, 0.3) 10px 10px, rgba(98, 0, 255, 0.2) 15px 15px, rgba(17, 0, 255, 0.1) 20px 20px, rgba(25, 0, 255, 0.05) 25px 25px;
+    transition: box-shadow 1s ease-in-out;
+    box-shadow: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.card1:hover{
+    box-shadow: rgba(76, 0, 255, 0.4) 15px 15px, rgba(76, 0, 255, 0.3) 20px 20px, rgba(76, 0, 255, 0.2) 25px 25px, rgba(98, 0, 255, 0.1) 30px 30px, rgba(183, 0, 255, 0.05) 35px 35px;
+}
+.card1-content {
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.card1-content img {
+ width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.card2 {
+    width: 412px;
+    height: 342px;
+    background: #cc2e8a;
+    border-radius: 40px;
+    box-shadow: rgba(34, 34, 33, 0.4) 5px 5px, rgba(80, 79, 78, 0.3) 10px 10px, rgba(35, 36, 34, 0.2) 15px 15px, rgba(62, 62, 68, 0.1) 20px 20px, rgba(54, 53, 58, 0.05) 25px 25px;
+    transition: box-shadow 1s ease-in-out;
+    box-shadow: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.card2:hover{
+    box-shadow: rgba(83, 81, 87, 0.4) 15px 15px, rgba(55, 53, 58, 0.3) 20px 20px, rgba(95, 92, 102, 0.2) 25px 25px, rgba(103, 101, 107, 0.1) 30px 30px, rgba(69, 64, 71, 0.05) 35px 35px;
+}
+.card2-content {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.card2-content img {
+ width: 150px;
+    height: auto;
+    border-radius: 49%;
+}
+
+
+.card3 {
+    width: 412px;
+    height: 342px;
+    background: #c01616;
+    border-radius: 40px;
+    box-shadow: rgba(173, 95, 5, 0.4) 5px 5px, rgba(255, 196, 0, 0.486) 10px 10px, rgba(143, 97, 11, 0.2) 15px 15px, rgba(145, 90, 8, 0.1) 20px 20px, rgba(134, 83, 5, 0.05) 25px 25px;
+    transition: box-shadow 1s ease-in-out;
+    box-shadow: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.card3:hover{
+    box-shadow: rgba(175, 106, 2, 0.4) 15px 15px, rgba(185, 108, 7, 0.3) 20px 20px, rgba(116, 76, 2, 0.2) 25px 25px, rgba(173, 101, 7, 0.1) 30px 30px, rgba(119, 73, 3, 0.05) 35px 35px;
+}
+.card3-content {
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.card4-content img {
+ width: 150px;
+    height: auto;
+    border-radius: 100%;
+}
+
