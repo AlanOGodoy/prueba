@@ -32,8 +32,6 @@ header {
   color: var(--text);
   padding: 10px 0;
   position: sticky;
-  top: 0;
-  z-index: 10;
 }
 
 .container.nav {
@@ -42,7 +40,6 @@ header {
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
 }
 
 .logo {
