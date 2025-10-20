@@ -92,3 +92,47 @@ const anagrama = (palabra1, palabra2) => {
 }
 
 console.log(anagrama('amor', 'roma'));
+
+
+const body = document.querySelector('body'); "MAS IMPORTANTE"
+const body2 = document.getElementsByTagName('body')[0];
+const byid = document.getElementById('byid');
+const byclass = document.getElementsByClassName('byclass')[0];
+const byname = document.getElementsByName('nombre')[0];
+
+console.log(byname);
+console.log(byid);
+console.log(byclass);
+console.log(body2);
+console.log(body);
+
+
+const buttons = document.querySelectorAll('.project-card button');
+const projectCards = document.querySelectorAll('.project-card');
+
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        if(button){
+            const id = button.dataset.id;
+
+        projectCards.forEach((card) => {
+            const cardId = card.dataset.card;
+
+            if(cardId === id){
+                card.classList.toggle('is-active');
+
+                button.textContent = 'Ver Proyecto';
+
+                if (card.classList.contains('is-active')) {
+                    button.textContent = 'Cerrar Proyecto';
+                }
+            }
+            // Si queremos seleccionar solamente una card.
+            // else{
+            //     card.classList.remove('is-active');
+            // }
+        });
+        }
+    });
+});
