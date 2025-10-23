@@ -7,6 +7,16 @@
   --radius-card: 28px;
   --shadow-card: 0 8px 24px rgba(0,0,0,.12);
 }
+.dark-theme {
+  --primary-color: #fff;
+  --secondary-color: #000; 
+  --background-color: #030303;
+  --bg: #0f0f10;     /* fondo oscuro */
+  --text: #f2f2f2;   /* texto claro */
+  --primary-color: #121212;
+  --secondary-color: #d23a3a;
+  --shadow-card: 0 8px 24px rgba(0,0,0,.45);
+}
 
 *,
 *::before,
@@ -20,6 +30,7 @@ body {
   color: var(--text);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   line-height: 1.5;
+  transition: all 0.5s ease-in-out;
 }
 
 .container {
